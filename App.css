@@ -1,0 +1,186 @@
+/* app.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  margin-bottom: 1rem;
+  color: #5eb9a6;
+}
+
+.usuario .senha {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  margin: 5px;
+  font-size: 1rem;
+  background-color: #1f2b3a;
+  color: #b47878;
+  width: 200px;
+  transition: 0.3s;
+}
+.senh {
+   background-color: #00ffc8;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sen {
+  background-color: #00ffc8;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.se {
+    background-color: #00ffc8;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.cli {
+    background-color: #00ffc8;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.clik {
+    background-color: #00ffc8;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.sn {
+     background-color: #00ffc8;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.gravar { margin-bottom: 1rem;
+  color: #00ffc8;
+
+}
+.usuario:Focus .senha:focus {
+  box-shadow: 0 0 5px #00ffc8;
+}
+.adm {
+   background-color: #00ffc8;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.en {
+  background-color: #00ffc8;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.en:hover {
+  background-color: #00bfa5;
+}
+
+video {
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 255, 200, 0.4);
+  margin: 20px 0;
+  max-width: 90%;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.qr-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(135deg, #121212, #1c1c1c);
+    color: #eee;
+  }
+
+  input[type="text"], input[type="password"] {
+    background-color: #2a2a2a;
+  }
+
+  button {
+    background-color: #00ffc8;
+    color: #000;
+  }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+    height: auto;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
